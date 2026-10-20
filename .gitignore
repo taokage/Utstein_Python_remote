@@ -1,0 +1,32 @@
+
+# 仮想環境・秘密情報
+.venv/
+.venv*/
+.env
+.env.*
+!.env.example
+
+# 実データ・学習結果・外部コード
+data/
+artifacts/
+external/
+backups/
+*.pkl
+*.pickle
+*.csv
+*.tsv
+*.dta
+*.parquet
+*.xlsx
+*.xls
+*.npy
+*.npz
+*.pt
+*.pth
+*.ckpt
+
+# 一時ファイル
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
