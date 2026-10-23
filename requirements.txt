@@ -1,0 +1,40 @@
+# Utstein_Python: notebook 18 / official TabDiff
+# Python 3.10-3.12 recommended. This is a requirements list, not a tested lockfile.
+# Keep the existing CUDA-enabled PyTorch installation.
+# torch / torchvision / torchaudio intentionally omitted.
+
+# Data preparation and scientific computing
+numpy>=1.26,<2
+pandas>=2.2
+scipy>=1.11
+scikit-learn>=1.3
+category-encoders>=2.6
+
+# Official TabDiff runtime and imported evaluation modules
+icecream
+tomli==2.0.1
+tomli-w
+ml-collections
+tqdm
+wandb==0.17.3
+sdmetrics
+rdt
+prdc
+xgboost
+
+# Notebook environment and plots
+jupyterlab
+ipykernel
+nbformat
+matplotlib
+japanize-matplotlib
+setuptools<81
+plotly
+pillow
+kaleido
+
+# Spreadsheet / Stata / Parquet input and output
+openpyxl
+xlrd
+pyreadstat
+pyarrow
